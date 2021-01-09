@@ -138,7 +138,7 @@ form {
     margin: 50px 0;
 }
 
-.signUp input {
+input {
     width: 300px;
     height: 50px;
     padding: 20px;
@@ -160,7 +160,7 @@ input::placeholder {
 .btn {
     width: 200px;
     height: 50px;
-    margin: 100px -50px 0 0;
+    margin: 50px -50px 0 200px;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -339,7 +339,7 @@ section {
     height: 30px;
     background-color: var(--LightGrayishBlue);
     border: 1px solid var(--VeryDarkBlue);
-    margin: 0 0 0 -100px;
+    margin: 30px 0 -20px -100px;
     padding: 20px;
     outline: none;
 }
@@ -349,7 +349,7 @@ section {
 }
 
 .right-register button {
-    margin: -30px 0 20px -300px;
+    margin: 50px 0 20px -100px;
 }
 
 .footer {
@@ -433,7 +433,33 @@ section {
 }
 
 .fab:hover {
-    color: var(--ModerateCyan);
-    border: 1px solid var(--ModerateCyan);
+    color: var(--BrightBlue);
+    border: 1px solid var(--BrightBlue);
     cursor: pointer;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.error-messageS {
+    color: red;
+    font-family: var(--bodyFont);
+    font-style: italic;
+    font-weight: lighter;
+    display: none;
+    position: absolute;
+    left: 10%;
+    top: 74%;
+}
+
+.error-messageR {
+    color: red;
+    font-family: var(--bodyFont);
+    font-style: italic;
+    font-weight: lighter;
+    display: none;
+    position: absolute;
+    left: 58%;
+    top: 231.5%;
 }
