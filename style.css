@@ -149,6 +149,10 @@ form {
     border-radius: 5px;
 }
 
+.signUp input:hover {
+    cursor: pointer;
+}
+
 input::placeholder {
     color: var(--LightGray);
 }
@@ -336,6 +340,12 @@ section {
     background-color: var(--LightGrayishBlue);
     border: 1px solid var(--VeryDarkBlue);
     margin: 0 0 0 -100px;
+    padding: 20px;
+    outline: none;
+}
+
+.right-register input:hover {
+    cursor: pointer;
 }
 
 .right-register button {
@@ -350,7 +360,6 @@ section {
 
 .footer-header {
     height: 10vh;
-    background-color: pink;
     display: flex;
     align-items: center;
     padding: 40px;
@@ -358,7 +367,6 @@ section {
 }
 
 .footer-content {
-    background-color: coral;
     height: 25vh;
     display: flex;
     flex-direction: row;
@@ -411,4 +419,21 @@ section {
 
 #hidden {
     visibility: hidden;
+}
+
+.social {
+    margin: 5px 0 0 400px;
+}
+
+.fab {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid var(--LightGrayishBlue);
+    border-radius: 50%;
+}
+
+.fab:hover {
+    color: var(--ModerateCyan);
+    border: 1px solid var(--ModerateCyan);
+    cursor: pointer;
 }
