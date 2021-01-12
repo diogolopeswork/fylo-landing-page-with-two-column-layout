@@ -13,6 +13,7 @@ submitBtn.addEventListener('click', () => {
         input.classList.add('error');
 
         errorMessageS.style.display = 'block';
+        input.style.border = '1px solid red';
         setTimeout(() => {
             errorMessageS.style.transform = 'scale(1)';
         }, 100);
@@ -34,6 +35,7 @@ btnR.addEventListener('click', () => {
         input.classList.add('error');
 
         errorMessageR.style.display = 'block';
+        inputR.style.border = '1px solid red';
         setTimeout(() => {
             errorMessageR.style.transform = 'scale(1)';
         }, 100);
