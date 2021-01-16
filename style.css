@@ -483,6 +483,7 @@ section {
 
     .left-testimonial h3 {
         width: 70%;
+        margin: 10px 0 10px -20px;
     }
 
     .left-testimonial h5 {
@@ -490,15 +491,15 @@ section {
     }
     
     #arrow {
-        margin: 105px 0 0 75px;
+        margin: 87px 0 0 70px;
     }
 
     #quotes {
-        margin: -95px 0 0 95px;
+        margin: -95px 0 0 85px;
     }
 
     #avatar {
-        margin: 60px 0 0 100px;
+        margin: 60px 0 0 85px;
     }
 
     .name  {
@@ -532,4 +533,8 @@ section {
     .footer-content li {
         margin: 20px 0 20px 0;
     }
+}
+
+@media screen and (max-width: 812px) {
+    
 }
