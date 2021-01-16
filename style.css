@@ -536,5 +536,195 @@ section {
 }
 
 @media screen and (max-width: 812px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    #logo {
+        float: left;
+        margin-left: -10px;
+        width: 40%;
+    }
+
+    #nav {
+        width: 55%;
+    }
     
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .right-header {
+        width: 100%;
+        height: 50vh;
+        margin: -820px 0 0 0px;
+    }
+
+    .left-header {
+        width: 100%;
+        height: 50vh;
+        margin: 420px 0 0 0;
+    }
+
+    .left-header h1 {
+        font-size: 30px;
+        text-align: center;
+        margin: -90px 0 0 0px;
+        width: 120%;
+    }
+
+    .left-header p {
+        font-size: 16px;
+        width: 100%;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+    .signUp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email {
+        margin: 100px 0 0 30px;
+    }
+
+    #button {
+        margin: 170px 0 0 -20px;
+        width: 300px;
+    }
+
+    .attribution {
+        margin: 0 0 -180px 0;
+    }
+
+    .testimonial {
+        margin: 30vh 0 0 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 150vh;
+    }
+
+    .left-testimonial {
+        width: 100%;
+        height: 75vh;
+        margin: 550px 0 0 0;
+    }
+
+    .left-testimonial h1 {
+        z-index: 5;
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        margin: 20px 0 0 0;
+    }
+
+    .left-testimonial h3 {
+        z-index: 5;
+        margin: 10px 0 10px 30px;
+    } 
+
+    .left-testimonial h5 {
+        text-align: center;
+        margin: 0;
+    }
+    
+    #arrow {
+        margin: -10px 0 0 220px;
+    }
+
+    #quotes {
+        margin: -90px 0 0 30px;
+    }
+
+    #avatar {
+        width: 10%;
+        margin: 60px 0 0 35px;
+    }
+
+    .card {
+        margin: 50px 0 50px 0;
+    }
+
+    .right-testimonial {
+        width: 100%;
+        height: 75vh;
+        margin: -1150px 0 0 0;
+    }
+
+    .register {
+        margin: 30vh 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-register h1 {
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .left-register h3 {
+        font-size: 16px;
+        width: 150%;
+    }
+
+    #register {
+        margin: -45px 0 10px 0;
+        width: 300px;
+    }
+
+    #btnR {
+        margin: 0;
+        width: 300px;
+    }
+
+    .footer {
+        margin: 0vh 0 0 0;
+        z-index: -1;
+    }
+
+    #logoFooter {
+        margin: 50px 0 0 0;
+    }
+
+    .footer-content {
+        margin-top: -30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .phoneP {
+        margin: 0 0 0 30px;
+        position: absolute;
+    }
+
+    #phone {
+        margin: -220px 0 0 0;
+    }
+
+    #emailF {
+        margin: -150px 0 0 -20px;
+    }
+
+    .emailP {
+        width: 100%;
+        margin: 37px 0 0 10px;
+    }
+
+    .footer-content ul {
+        align-items: center;
+        margin: 80px 110px 0 -80px;
+        height: 150px;
+    }
+
+    .social {
+        margin: 60px 0 0 -10px;
+    }
 }
